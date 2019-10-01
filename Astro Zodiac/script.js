@@ -102,24 +102,24 @@ $(".blackblock").mouseout(function(){
   if (homepage == true){
 
     $(".cursor").animate({
-      width: "50px",
-      height: "50px"
+      width: "35px",
+      height: "35px"
     }, 500)
 
     $(".blackblock").animate({
-      width: "50px",
+      width: "35px",
       left: "97%"
     }, 300)
 
   } else if (homepage==false){
 
     $(".cursor").animate({
-      width: "50px",
-      height: "50px"
+      width: "35px",
+      height: "35px"
     }, 500)
 
     $(".blackblock").animate({
-      width: "50px",
+      width: "35px",
     }, 300)
 
   }

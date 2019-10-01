@@ -151,18 +151,24 @@ div#name-scene {
   position: fixed;
   padding: 0px;
   margin: 0px;
+  padding-right: 10px;
   top:0px;
-
+  color: white;
+  writing-mode: vertical-rl;
+  text-align: center;
   left: 97%;
-  width: 50px;
+  width: 35px;
 
   background-color: black;
   transition: background-color 1s;
   transition-delay: 2s;
 
   height: 100vh;
+  line-height: 20px;
 
 }
+
+
 
 
 /* .black {
