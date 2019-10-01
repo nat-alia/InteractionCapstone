@@ -1,0 +1,640 @@
+/* CSS files add styling rules to your content */
+
+@font-face {
+  font-family: TNRC;
+  src: url(TNRC.woff);
+}
+
+
+body {
+  background-color: #FCFCFC;
+  padding: 0px;
+  margin: 0px;
+
+  overflow-x: hidden;
+
+}
+
+.body-overflow {
+  overflow-y: hidden;
+}
+
+* {
+  cursor: none;
+}
+
+h1 {
+  font-family: "TNRC";
+  letter-spacing: -1.5px;
+  text-transform:;
+  color: black;
+  font-weight: lighter;
+  line-height: 50px;
+
+  font-size: 25px;
+
+
+}
+
+.title {
+  text-transform: uppercase;
+}
+.text {
+  padding-top: 210px;
+  text-align: center;
+  padding-right: 500px;
+
+}
+
+
+
+.letter {
+  position: relative;
+
+
+
+  zoom: .65;
+  -moz-transform: scale(0.4);
+  /*zoom: .5;
+  -moz-transform: scale(0.5); */
+
+
+}
+
+
+.cursor{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+
+  mix-blend-mode: exclusion;
+  cursor: none;
+  pointer-events: none;
+  z-index: 500;
+  transform: translate(-50%,-50%);
+}
+
+
+/*svg:hover {
+  width: 100px!important;
+  height: 100px!important;
+}*/
+
+svg {
+  height: 28px;
+  width: 28px;
+}
+
+path {
+  fill: black;
+  stroke: white;
+  stroke-width: 3px;
+
+}
+
+@keyframes twinkle {
+  0% {
+    filter: blur(0);
+    fill: white;
+    },
+  50% {
+    filter: blur(1rem);
+    },
+  100% {
+    filter: blur(0);
+    },
+}
+
+
+
+#scene {
+  position: absolute;
+  top: 0;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-bottom: 0px;
+  left: 110vw;
+
+  width: 100vw;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+
+
+
+/*
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+*/
+}
+
+div#name-scene {
+
+  padding-top: 10vh;
+  padding-bottom: 500px;
+  padding-left: 15vw;
+  width: 100vw;
+  height: 800px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+
+.blackblock {
+  z-index: 50;
+  position: fixed;
+  padding: 0px;
+  margin: 0px;
+  top:0px;
+
+  left: 97%;
+  width: 50px;
+
+  background-color: black;
+  transition: background-color 1s;
+  transition-delay: 2s;
+
+  height: 100vh;
+
+}
+
+
+/* .black {
+  background-color: black;
+  transition: all 1s;
+  transition-delay: 2s;
+} */
+
+.white {
+  background-color: white;
+
+  transition: background-color 1s;
+  transition-delay: 2s;
+
+  left: 0;
+  width: 50px;
+
+}
+
+#otherscene {
+  position: relative;
+  display: inline;
+  width: 100vw;
+  height: 100vh;;
+
+}
+
+#otherscene .module {
+
+  position: absolute;
+
+  filter: blur(.05rem);
+
+}
+
+
+.mid {
+  zoom: .4;
+  -moz-transform: scale(0.3);
+}
+
+.bigstar svg{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  display: inline;
+  top: 50%;
+  left: 35%;
+}
+
+.bigstar2 svg{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  display: inline;
+  top: 50%;
+  left: 5%;
+}
+
+.bigstar3 svg{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  display: inline;
+  top: 50%;
+  left: 65%;
+}
+
+.bigstar svg path {
+  stroke-width: .5px;
+  fill: white;
+
+}
+
+.two {
+  top: 400px;
+  left: 200px;
+}
+
+.four{
+  left: 800px;
+  top: 600px;
+  }
+
+  .three {
+    top: 900px;
+    left: 100px;
+  }
+
+.module {
+background-color: transparent;
+width: 50px;
+height: 50px;
+
+position: absolute;
+
+}
+
+#name-scene .letter-wrap .letter {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-left:220px;
+
+
+}
+
+/*Astro Name*/
+
+.A-astro{
+  left: 0px;
+}
+
+.S-astro {
+  left: 200px
+}
+
+.T-astro {
+  left: 375px
+}
+
+.R-astro {
+  left: 575px
+}
+
+.O-astro {
+  left: 775px
+}
+
+.Z-zodiac {
+  left: -100px;
+  position: absolute;
+  top: 300px;
+}
+
+.O-zodiac {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+
+.D-zodiac {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+
+.I-zodiac {
+  position: absolute;
+  top: 300px;
+  left: 475px;
+}
+
+.A-zodiac {
+  position: absolute;
+  top: 300px;
+  left: 650px;
+}
+
+.C-zodiac {
+  position: absolute;
+  top: 300px;
+  left: 850px;
+}
+
+.L-leo {
+  top: 750px;
+  left: 200px;
+
+}
+
+.E-leo {
+  top: 750px;
+  left: 375px;
+}
+
+.O-leo {
+  top: 750px;
+  left: 575px;
+}
+
+.G-gemini {
+  top: 1000px;
+  left: -100px;
+}
+
+.E-gemini {
+  top: 1000px;
+  left: 100px;
+}
+
+.M-gemini {
+  top: 1000px;
+  left: 275px;
+}
+
+.I-gemini-1 {
+  top: 1000px;
+  left: 500px;
+}
+
+.N-gemini {
+  top: 1000px;
+  left: 675px;
+}
+
+.I-gemini-2 {
+  top: 1000px;
+  left: 875px;
+}
+
+.aries {
+  top: 1250px
+}
+
+.A-aries {
+  left: 0px;
+}
+
+.R-aries {
+  left: 200px;
+
+}
+.I-aries {
+  left: 375px;
+
+}
+.E-aries {
+  left: 550px;
+
+}
+
+.S-aries {
+  left: 750px;
+
+}
+
+
+
+
+#name-scene .letter-wrap .letter {
+  zoom: 1;
+  -moz-transform: scale(1);
+
+  display: inline;
+
+
+}
+/*Letters */
+
+
+.E {
+  left: 1600px;
+}
+
+.S {
+  top: 1600px;
+  left: 0px;
+}
+
+.M {
+  top: 800px;
+  left: 1200px;
+}
+
+
+.O {
+  top: 1200px;
+  left: 190px;
+}
+
+.H {
+
+top: 400px;
+ left: 1000px;
+
+}
+
+.R{
+  left: 1450px;
+  top: 1200px;
+}
+
+.F {
+  top: 400px;
+  left: 220px;
+
+}
+
+.A {
+  left: 0px;
+}
+
+
+.C {
+  left: 800px;
+}
+
+
+.B {
+  left: 400px;
+}
+
+
+.D {
+  left: 1200px;
+}
+
+
+.G {
+  top: 400px;
+  left: 600px;
+}
+
+.I {
+  top: 400px;
+   left: 1400px;
+}
+
+.J {
+  top: 800px;
+}
+
+
+.K {
+  top: 800px;
+  left: 400px;
+}
+
+
+.L {
+  top: 800px;
+  left: 800px;
+}
+
+.N {
+  top: 800px;
+  left: 1600px;
+}
+
+
+.P {
+  top: 1200px;
+  left: 600px;
+}
+
+
+.Q {
+  top: 1200px;
+  left: 1000px;
+}
+
+
+.T {
+  top: 1600px;
+  left: 400px;
+}
+
+
+.U {
+  top: 1600px;
+  left: 775px;
+}
+
+
+.V {
+  top: 1600px;
+  left: 1200px;
+
+}
+
+
+.W {
+  top: 1600px;
+  left: 1600px;
+}
+
+.X {
+top: 2000px;
+left: 200px;
+}
+
+
+.Y {
+  top: 2000px;
+  left: 600px;
+}
+
+.Z {
+  top: 2000px;
+  left: 1000px;
+  padding-bottom: 400px;
+}
+/*columns & rows*/
+
+.e-r0 {
+  top: -25px;
+}
+
+.e-r1 {
+
+}
+
+.e-r2 {
+  top: 25px;
+}
+
+.e-r3 {
+  top: 50px;
+}
+
+
+.e-r4 {
+  top: 75px;
+}
+
+.e-r5 {
+  top: 100px;
+}
+
+.e-r6 {
+  top: 125px;
+}
+
+.e-r7 {
+  top: 150px;
+}
+
+.e-r8 {
+  top: 175px;
+}
+
+
+/*columns*/
+
+.e-c0 {
+  left: -25px;
+}
+
+.e-c1 {
+
+}
+
+.e-c2 {
+  left: 25px;
+}
+
+.e-c3 {
+  left: 50px;
+}
+
+.e-c4 {
+  left: 75px;
+}
+
+.e-c5 {
+  left: 100px;
+}
+
+.e-c6 {
+  left: 125px;
+}
+
+.e-c7 {
+  left: 150px;
+}
+
+.e-c8 {
+  left: 175px;
+}
+
+.e-c9 {
+  left: 200px;
+}
