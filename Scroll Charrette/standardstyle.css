@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: monospace;
+}
+
+
+.header {
+width: 100vw;
+height: 30px;
+position: fixed;
+z-index: 5;
+display: flex;
+justify-content: space-between;
+padding: 0 10px 5px 10px;
+}
+
+h1 {
+  font-size: 12px;
+  text-transform: uppercase;
+  position: relative;
+  padding-top: 5px;
+  color: rgb(40, 95, 68);
+  color: white;
+
+}
+
+.arrow-container {
+  display: inline;
+  margin-right: 30px;
+}
+
+ a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 0px;
+  color: rgb(40, 95, 68);
+  color: white;
+  padding: 2px;
+
+}
+
+a:hover {
+  background-color: rgb(40, 95, 68);
+
+
+}
+
+
+
+
+.square {
+  background-color: rgb(40, 95, 68);
+  width: 500px;
+  height: 500px;
+  position: fixed;
+  margin-left: 35vw;
+  margin-top: 20vh;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.footer {
+  position: fixed;
+  width: 100vw;
+  height: 35px;
+  bottom: 0px;
+  padding-left: 10px;
+}
+
+.footer-pagelist {
+  width: 90vw;
+  position: absolute;
+  bottom: 10px;
+}
+
+.footer-pixelcount {
+font-size: 20px;
+color: white;
+position: absolute;
+right: 20px;
+bottom: 8px;
+
+}
+
+
+.scroll-container-fixed {
+  width: 100vw;
+  height: 2000px;
+}
+
+.big {
+  text-transform: uppercase;
+  font-size: 20vw;
+}

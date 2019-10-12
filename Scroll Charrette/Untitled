@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+    <link rel="stylesheet" href="standardstyle.css" type="text/css">
+
+<style>
+
+.scroll-container-fixed {
+  background-color: rgb(206, 142, 70);
+  display: flex;
+  justify-content: space-between;
+  height: 4000px;
+}
+
+.square {
+position: fixed;
+border-radius: 100px;
+
+
+}
+
+#scroll-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.image1 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-image:url("https://sg6.imgix.net/0178.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+</style>
+
+
+  </head>
+  <body>
+
+    <div class="header">
+
+      <h1>Natalia Oledzka</h1>
+      <h1>Scroll Charrette</h1>
+
+      <div class="arrow-container">
+        <h1 class="arrow">
+          <a href="index15.html">←</a>
+          <a href="index17.html">→</a>
+        </h1>
+      </div>
+    </div>
+
+<div class="scroll-container-fixed" data-start="background-color: rgb(255, 255, 51);">
+
+<img class="image1" data-start="filter: hue-rotate(0deg); transform: rotate(0deg)" data-500="filter: hue-rotate(45deg); transform: rotate(360deg) " data-1000="filter: hue-rotate(90deg); transform: rotate(720deg)" data-1500="filter: hue-rotate(125deg); transform: rotate(1080deg)" data-2000="filter: hue-rotate(180deg); transform: rotate(1440deg)" data-2500="filter: hue-rotate(270deg); transform: rotate(1800deg)" data-3000="filter: hue-rotate(360deg); transform: rotate(2160deg)"></div>
+
+</div>
+
+
+<!--*** SCRIPTS ***-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="skrollr.js"></script>
+  <script type="text/javascript" src="scroll.js"></script>
+
+  </body>
+</html>
