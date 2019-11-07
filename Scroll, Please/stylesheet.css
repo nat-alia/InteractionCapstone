@@ -1,5 +1,6 @@
 body{margin:0;
   padding: 0px;
+  background-color: lightgray;
 
 }
 
@@ -47,7 +48,6 @@ p {
 .scroll-container {
   height: 10000px;
   transform: translate(-500px; -500px);
-  background-color: lightgray;
 
 
 }
