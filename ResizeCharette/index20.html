@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<link rel="stylesheet" href="css/gridmain.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+
+<style>
+a {
+	color: blue;
+}
+.box {
+	transition: all 1s;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.box1 {
+	background-color: #e3dbce;
+	transition: all 1s;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+
+.box2 {
+	background-color: #e3dbce;
+	transition: all 1s;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+
+@media (max-width: 1200px) {
+	.container {
+    grid-template-areas:
+      "sidebar header sidebar header"
+      "header main footer main"
+      "sidebar footer main footer";
+  }
+
+	.container .div {
+		border-radius: 50%;
+	}
+
+
+}
+
+@media (max-width: 1150px) {
+	.container {
+		grid-template-areas:
+			"sidebar header sidebar header"
+			"main sidebar main sidbear"
+			"footer footer footer footer";
+	}
+}
+
+@media (max-width: 1100px) {
+	.container {
+		grid-template-areas:
+			"main header sidebar header"
+			"main sidebar main sidbear"
+			"footer sidebar main sidebar";
+	}
+}
+
+@media (max-width: 950px) {
+	.container {
+		grid-template-areas:
+			"sidebar header sidebar header"
+			"main sidebar main sidbear"
+			"footer sidebar footer sidebar";
+	}
+
+}
+
+
+</style>
+
+
+</head>
+<body>
+	<div class="container">
+	  <div class="item-a"></div>
+	  <div class="item-b"></div>
+	  <div class="item-c"></div>
+	  <div class="item-d"></div>
+	</div>
+
+<div class="header-title">
+
+	<div class="link-div">
+	<a class="next-link link" href="index20.html">Next</a>
+</div>
+<div class="link-div">
+	<a class="previous-link link" href="index18.html">Previous</a>
+</div>
+
+</div>
+</body>
+</html>

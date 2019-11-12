@@ -1,0 +1,277 @@
+
+@font-face {
+	font-family: "Ortica-Light";
+  src: url("css/fonts/Fonts/Ortica-Light.woff2") format("woff2"),
+       url("css/fonts/Fonts/Ortica-Light.woff2") format("woff");
+}
+
+* {
+
+	font-family: "Ortica-Light";
+	font-family: "Georgia";
+	letter-spacing: 1.5px;
+	font-size: 12px;
+	text-transform:uppercase;
+}
+
+.container{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background-color: #576221;
+
+}
+
+.box{
+	position:absolute;
+	width:30%;
+	height:30%;
+	top:35%;
+	left:35%;
+	background-color: #e3dbce;
+}
+
+.header{
+	position: fixed;
+	z-index: 5;
+	top: 50%;
+	width: 100%;
+
+}
+
+.link {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+.previous-link {
+	position: absolute;
+	left: 1%;
+}
+
+.next-link {
+	position: absolute;
+	right: 2%;
+}
+
+a, p{
+	color: #e3dbce;
+	text-decoration: none;
+	transform: translate(-50%, -50%);
+}
+
+
+p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+@media (max-width: 1400px) {
+	.box{
+	}
+}
+
+@media (max-width: 1375px) {
+	.box{
+	}
+}
+@media (max-width: 1350px) {
+	.box{
+	}
+}
+
+@media (max-width: 1325px) {
+	.box{
+	}
+}
+
+@media (max-width: 1300px) {
+	.box{
+	}
+}
+
+@media (max-width: 1275px) {
+	.box{
+	}
+}
+
+@media (max-width: 1250px) {
+	.box{
+	}
+}
+
+@media (max-width: 1225px) {
+	.box{
+	}
+}
+
+@media (max-width: 1200px) {
+	.box{
+	}
+}
+
+@media (max-width: 1175px) {
+	.box{
+	}
+}
+
+@media (max-width: 1150px) {
+	.box{
+	}
+}
+
+@media (max-width: 1125px) {
+	.box{
+	}
+}
+
+@media (max-width: 1100px) {
+	.box{
+	}
+}
+
+@media (max-width: 1075px) {
+	.box{
+	}
+}
+
+@media (max-width: 1050px) {
+	.box{
+	}
+}
+
+@media (max-width: 1250px) {
+	.box{
+	}
+}
+
+@media (max-width: 1025px) {
+	.box{
+	}
+}
+
+@media (max-width: 1000px) {
+	.box{
+	}
+}
+
+@media (max-width: 975px) {
+	.box{
+	}
+}
+@media (max-width: 950px) {
+	.box{
+	}
+}
+
+@media (max-width: 925px) {
+	.box{
+	}
+}
+
+@media (max-width: 900px) {
+	.box{
+	}
+}
+
+@media (max-width: 875px) {
+	.box{
+	}
+}
+
+@media (max-width: 850px) {
+	.box{
+	}
+}
+
+@media (max-width: 825px) {
+	.box{
+	}
+}
+
+@media (max-width: 800px) {
+	.box{
+	}
+}
+
+@media (max-width: 775px) {
+	.box{
+	}
+}
+
+@media (max-width: 750px) {
+	.box{
+	}
+}
+
+@media (max-width: 725px) {
+	.box{
+	}
+}
+
+@media (max-width: 700px) {
+	.box{
+	}
+}
+
+@media (max-width: 675px) {
+	.box{
+	}
+}
+
+@media (max-width: 650px) {
+	.box{
+	}
+}
+@media (max-width: 625px) {
+	.box{
+	}
+}
+
+@media (max-width: 600px) {
+	.box{
+	}
+}
+
+@media (max-width: 575px) {
+	.box{
+	}
+}
+
+@media (max-width: 550px) {
+	.box{
+	}
+}
+
+@media (max-width: 525px) {
+	.box{
+	}
+}
+
+@media (max-width: 500px) {
+	.box{
+	}
+}
+
+@media (max-width: 475px) {
+	.box{
+	}
+}
+
+@media (max-width: 450px) {
+	.box{
+	}
+}
+
+@media (max-width: 425px) {
+	.box{
+	}
+}
+
+@media (max-width: 400px) {
+	.box{
+	}
+}

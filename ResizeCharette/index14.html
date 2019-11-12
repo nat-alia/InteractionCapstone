@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<link rel="stylesheet" href="css/main.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+
+<style>
+
+.box {
+	transition: all 1s;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+
+	background-color: #576221;
+}
+
+.container {
+	background-color: #e3dbce;
+}
+
+a, p {
+	color: #576221;
+}
+
+@media (max-width: 1275px) {
+	.box{
+		width: 100px;
+		height: 100px;
+	}
+}
+
+
+@media (max-width: 1200px) {
+	.box{
+		width: 100vw;
+		height: 100vw;
+	}
+}
+
+@media (max-width: 900px) {
+	.box{
+		width: 15vw;
+		height: 100vh;
+
+		border: 20px solid white;
+	}
+
+}
+
+	@media (max-width: 800px) {
+		.box{
+			width: 15vw;
+			height: 15vh;
+
+				border: 5px solid white;
+		}
+}
+
+</style>
+
+
+</head>
+<body>
+	<div class="container">
+		<div class="box" style="top: 50%; left: 25%" >
+		</div>
+
+		<div class="box" style="top: 50%; left: 50%;">
+		</div>
+
+		<div class="box" style="top: 50%; left: 75%;">
+		</div>
+
+
+	</div>
+
+<div class="header">
+
+	<div class="link-div">
+	<a class="next-link link" href="index15.html">Next</a>
+</div>
+<div class="link-div">
+	<a class="previous-link link" href="index13.html">Previous</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<link rel="stylesheet" href="css/main.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/script.js"></script>
+
+<style>
+.box {
+	transition: all 1s;
+	width: 100px;
+	height: 100px;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.box {
+	background-color: #576221;
+}
+
+p, a {
+	color: #576221;
+}
+
+.box1 {
+	background-color: #576221;
+	transition: all 1s;
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60px;
+	height: 60px;
+
+	position: absolute;
+}
+
+.box2 {
+	background-color: #576221;;
+	transition: all 1s;
+	width: 100px;
+	height: 100px;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+
+	position: absolute;
+
+}
+
+.container {
+	background-color: #e3dbce;
+}
+
+@media (max-width: 1200px) {
+	.box{
+		transform: rotate(45deg);
+	}
+}
+
+@media (max-width: 1150px) {
+	.box{
+		transform: rotate(-90deg);
+	}
+
+	.box1{
+		transform: rotate(45deg);
+	}
+}
+
+@media (max-width: 1100px) {
+	.box{
+		transform: rotate(180deg);
+	}
+
+	.box1{
+	transform: rotate(-90deg);
+	}
+
+	.box2{
+		transform: rotate(45deg);
+	}
+}
+
+@media (max-width: 950px) {
+	.box{
+		transform: rotate(20deg);
+	}
+
+	.box1{
+	transform: rotate(180deg);
+	}
+
+	.box2{
+		transform: rotate(-90deg);
+	}
+}
+
+@media (max-width: 900px) {
+	.box{
+		transform: rotate(20deg);
+	}
+
+	.box1{
+		transform: rotate(-90deg);
+	}
+
+	.box2{
+		transform: rotate(180deg);
+	}
+}
+
+@media (max-width: 800px) {
+	.box{
+		transform: rotate(75deg);
+	}
+
+	.box1{
+		transform: rotate(20deg);
+	}
+
+	.box2{
+	transform: rotate(-90deg);
+	}
+}
+
+</style>
+
+
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+		</div>
+
+		<div class="box1">
+		</div>
+
+		<div class="box2">
+		</div>
+	</div>
+
+<div class="header">
+
+	<div class="link-div">
+	<a class="next-link link" href="index17.html">Next</a>
+</div>
+<div class="link-div">
+	<a class="previous-link link" href="index15.html">Previous</a>
+</div>
+
+</body>
+</html>
