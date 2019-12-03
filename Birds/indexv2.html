@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://use.typekit.net/ren5hbc.css">
+
+  <link rel="stylesheet" href="styles.css">
+
+    <title>Bird Populations</title>
+
+<style>
+
+
+
+/*media queries*/
+@media (max-width: 1400px) {
+	.animal-image{
+		background-image: url(imgimg/edit_domesticchicken_crop.png);
+    background-color: honeydew;
+
+	}
+
+.name::after {
+  content: "Domestic Chicken";
+}
+
+.bar {
+  background-color: green;
+}
+
+.num::after {
+  content: "22.67 Billion";
+}
+
+}
+
+@media (max-width: 1350px) {
+	.animal-image{
+		background-image: url(imgimg/edit_redbilledquelea.png);
+    background-color: honeydew;
+	}
+
+.name::after {
+  content: "Red-Billed Quela";
+}
+
+.num::after {
+  content: "1.5 Billion";
+}
+
+}
+
+@media (max-width: 1325px) {
+	.animal-image{
+		background-image: url(imgimg/edit_morningdove.png);
+
+	}
+
+.name::after {
+  content: "Mourning Dove";
+}
+
+.num::after {
+  content: "400 Million";
+}
+
+}
+
+
+@media (max-width: 1300px) {
+	.animal-image{
+		background-image: url(img/americanrobin._110_150png.png);
+    border: 8px solid green;
+	}
+
+.name::after {
+  content: "American Robin";
+}
+
+.num::after {
+  content: "310 Million";
+}
+
+}
+
+
+@media (max-width: 1200px) {
+	.animal-image{
+		background-image: url(imgimg/edit_snowyowl.png);
+    background-color: lemonchiffon	;
+	}
+
+
+.name::after {
+  content: "Snowy Owl";
+}
+
+
+.bar {
+  background-color: gold;
+}
+
+.num::after {
+  content: "300,000";
+}
+
+}
+
+@media (max-width: 1000px) {
+	.animal-image{
+		background-image: url(imgimg/edit_greenmacaw.png);
+    background-color: peachpuff;
+	}
+
+
+.name::after {
+  content: "Great Green Macaw";
+}
+
+.num::after {
+  content: "1,000 - 2,500";
+}
+
+.bar {
+  background-color: orange;
+}
+
+}
+
+
+
+@media (max-width: 950px) {
+	.animal-image{
+		background-image: url(imgimg/edit_bluebilled.png);
+    background-color: salmon;
+
+	}
+
+
+
+.name::after {
+  content: "Blue Billed";
+}
+
+.num::after {
+  content: "Around 250-500 left";
+}
+
+.bar {
+  background-color: red;
+}
+
+
+}
+
+
+
+@media (max-width: 900px) {
+	.animal-image{
+		background-image: url(imgimg/edit_guamrail.png);
+    background-color: salmon;
+
+	}
+
+
+.name::after {
+  content: "Guam Rail";
+}
+
+.num::after {
+  content: "200";
+}
+
+}
+
+@media (max-width: 850px) {
+	.animal-image{
+		background-image: url(imgimg/edit_hawaiiancrow.png);
+
+	}
+
+.name::after {
+  content: "Hawaiian Crow";
+}
+
+.num::after {
+  content: "85";
+}
+
+}
+
+@media (max-width: 750px) {
+	.animal-image{
+		background-image: url(img/Alagoas_foliage-gleaner_edit_1_150.png);
+    background-color: gray;
+	}
+
+  .bar {
+    background-color: black;
+  }
+
+.name::after {
+  content: "Alagoas Foliage-Gleaner";
+}
+
+.num::after {
+  content: "Extinct";
+}
+}
+
+
+
+@media (max-width: 650px) {
+	.animal-image{
+		background-image: url(imgimg/edit_cryptictreehunter.png);
+    background-color: dimgray;
+	}
+
+.name::after {
+  content: "Cryptic Tree Hunter";
+}
+
+.num::after {
+  content: "Extinct";
+}
+}
+
+@media (max-width: 600px) {
+	.animal-image{
+		background-image: url(img/Alagoas_foliage-gleaner_edit_1_150.png);
+    border: 8px solid black;
+	}
+
+.name::after {
+  content: "Spix's Macaw";
+}
+
+.num::after {
+  content: "Extinct";
+}
+}
+
+
+</style>
+
+
+
+
+
+  </head>
+  <body>
+
+
+
+<div class="animal-container">
+
+<div class="animal-image"></div>
+
+
+
+<div class="label-container">
+  <h4 class="name-label">SPECIES</h4>
+  <h4 class="name"></h4>
+  <div class="line"></div>
+  <h4 class="num-label">POPULATION ESTIMATE</h4>
+  <h4 class="num"></h4>
+  <div class="bar"></div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="scriptv2.js"></script>
+
+  </body>
+</html>

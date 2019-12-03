@@ -1,0 +1,290 @@
+
+@font-face {
+  font-family: "Palais";
+  src: url("PalaisTrial-Regular.woff");
+}
+
+
+* {
+  font-family: Palais;
+  font-size: 100px;
+  text-transform: uppercase;
+  cursor: none;
+}
+
+
+
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+
+  background-color: rgba(0,0,0,1);
+  mix-blend-mode: exclusion;
+  left: -100px;
+  cursor: none;
+ pointer-events: none;
+  z-index: 500;
+}
+
+.title {
+  font-size: 15vw;
+  line-height: 15vw;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+p {
+  font-family: "prestige-elite-std";
+  font-size: 14px;
+  line-height: 0px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "prestige-elite-std";
+  text-transform: uppercase;
+  color: black;
+  z-index: 100;
+}
+
+.click {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  transform: translate(20%, 20%);
+  display: none;
+}
+
+.population {
+  font-size: 10px;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.block {
+  display: block;
+}
+
+
+.label-container{
+  position: fixed;
+  top: 50%;
+  text-align: center;
+  width: 100vw;
+
+}
+
+
+
+.starting-view{
+  position: fixed;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 100vw;
+}
+
+.starting-view p {
+margin-top: -50px;
+}
+
+.number-container{
+  position: fixed;
+  top: 20%;
+  text-align: center;
+  width: 100vw;
+  height: 100%;
+
+}
+
+.sidebar_information {
+
+position: fixed;
+right: 0;
+top: 50%;
+width: 35px;
+}
+
+
+.sidebar_credits {
+
+position: fixed;
+left: 0;
+top: 50%;
+width: 35px;
+}
+
+.sidebar_credits p{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+
+}
+
+
+.sidebar_information p {
+  writing-mode: vertical-rl;
+}
+
+.header {
+  position: fixed;
+  top: 35px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+p {
+  font-color: black;
+  text-transform: uppercase;
+}
+
+.animal-image {
+
+  /* width: 200px;
+  height: 300px; */
+
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  position: fixed;
+  /* border-top-left-radius: 50%;
+  border-top-right-radius: 50%; */
+  border-radius: 0%;
+  border: 8px solid red;
+
+  visibility: hidden;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  background-blend-mode: multiply;
+  background-color: orange;
+
+  background-image: ;
+}
+
+.label-container {
+  top: 500px;
+  background-color: white;
+  border: 1px solid black;
+  height: 50px;
+  width: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
+.label-container h4 {
+  /* transform: translate(-50%, -50%); */
+}
+
+
+.bar {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 10px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.name {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 14px;
+  font-family: "prestige-elite-std";
+
+
+}
+
+.name-label, .num-label, .line {
+  position: absolute;
+  top: 0px;
+  font-size: 10px;
+  font-family: "prestige-elite-std";
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.line {
+  left: 180px;
+  height:50px;
+  width: 1px;
+  background-color: black;
+}
+
+.block {
+  height: 100vh;
+  width: 200px;
+  background-color: black;
+  z-index: 2000;
+  color: white;
+  position: absolute;
+}
+
+.block p {
+  line-height: 12px;
+  font-size: 12px;
+  text-transform:none;
+  padding: 20px;
+}
+
+.credits_block{
+left: -200px;
+}
+
+.credits_move{
+  transform: translate(200px, 200px);
+}
+
+.credits_block_move{
+  transform: translate(200px, 200px);
+}
+
+.information_block {
+  right: -200px;
+}
+
+.information_block_move {
+  right: 0px;
+}
+
+.name-label {
+  left: 10px;
+}
+
+.num-label {
+  left: 200px;
+}
+
+
+
+.num {
+  font-size: 14px;
+  position: absolute;
+  left: 200px;
+  top: 10px;
+  font-family:"prestige-elite-std";
+}
