@@ -24,15 +24,15 @@ $(document).ready(function() {
 
   $(function () {
   $("body").mousedown(function (e) {
-    $(".cursor").css({
+    $(".cursor").animate({
       "width": "50px",
       "height": "50px"
-    });
+    },200);
   }).mouseup(function () {
-    $(".cursor").css({
+    $(".cursor").animate({
       "width": "20px",
       "height": "20px"
-    });
+    }, 200);
   });
   });
 
@@ -44,15 +44,15 @@ $(document).ready(function() {
         $(".starting-view").click(function() {
 
           if (numCount == 0){
-            $(".starting-view h4").html(`Overall, 40 percent of the world’s 11,000 bird species are in decline.`);
+            $(".starting-view h4").html(`Today, 40 percent of the world’s 11,000 bird species are in decline.`);
             $(".click").html("2/4").css({"font-family": "prestige-elite-std", "font-size": "14px", "text-transform": "uppercase"});
             numCount++;
           } else if (numCount==1){
-              $(".starting-view h4").html(`The populations of 1 in 8 bird species are faced with extinction.`);
+              $(".starting-view h4").html(`1 in 8 bird species are faced with extinction.`);
               $(".click").html("3/4");
               numCount++;
           } else if (numCount==2){
-                $(".starting-view h4").html(`Click and resize to see the state of bird species.`).css({"font-family": "prestige-elite-std", "font-size": "14px", "text-transform": "uppercase"});
+                $(".starting-view h4").html(`Click and resize to explore the numbers of bird species we have left on our planet.`).css({"font-family": "prestige-elite-std", "font-size": "14px", "text-transform": "uppercase"});
                 $(".click").html("4/4");
                 numCount++;
           } else if (numCount=3){
