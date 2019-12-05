@@ -10,6 +10,7 @@
   font-size: 100px;
   text-transform: uppercase;
   cursor: none;
+
 }
 
 
@@ -70,6 +71,7 @@ a {
   position: absolute;
   transform: translate(20%, 20%);
   display: none;
+
 }
 
 .population {
@@ -120,6 +122,8 @@ position: fixed;
 right: 0;
 top: 50%;
 width: 35px;
+transition: all 2s;
+
 }
 
 
@@ -129,7 +133,21 @@ position: fixed;
 left: 0;
 top: 50%;
 width: 35px;
+transition: all 2s;
 }
+
+.sidebar_credits:hover {
+  transition: all 1s;
+  left: 10px;
+  text-shadow: blue 0px 0px 3px;
+}
+
+.sidebar_information:hover {
+  transition: all 1s;
+  right: 10px;
+  text-shadow: blue 0px 0px 5px;
+}
+
 
 .sidebar_credits p{
   writing-mode: vertical-rl;
@@ -177,6 +195,26 @@ p {
   background-color: orange;
 
   background-image: ;
+}
+
+.starting-view h4:hover {
+  text-shadow: blue 0px 0px 5px;
+  transition: text-shadow 2s;
+}
+
+.starting-view h4{
+  text-shadow: blue 0px 0px 0px;
+  transition: text-shadow 2s;
+}
+
+a:hover {
+  text-shadow: blue 0px 0px 3px;
+  transition: text-shadow 2s;
+}
+
+a{
+  text-shadow: blue 0px 0px 0px;
+  transition: text-shadow 2s;
 }
 
 .label-container {
