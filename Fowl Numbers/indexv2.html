@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://use.typekit.net/ren5hbc.css">
+
+  <link rel="stylesheet" href="styles.css">
+
+    <title>Bird Populations</title>
+
+<style>
+
+* {
+  cursor: ew-resize;
+  transition: background-image .01;
+}
+
+
+/*media queries*/
+@media (max-width: 1400px) {
+	.animal-image{
+		background-image: url(imgimg/edit_domesticchicken_crop.png);
+    background-color: honeydew;
+
+	}
+
+.name::after {
+  content: "Domestic Chicken";
+}
+
+.bar {
+  background-color: green;
+}
+
+.num::after {
+  content: "22.67 Billion";
+}
+
+}
+
+@media (max-width: 1350px) {
+	.animal-image{
+		background-image: url(imgimg/edit_redbilledquelea.png);
+    background-color: honeydew;
+	}
+
+.name::after {
+  content: "Red-Billed Quela";
+}
+
+.num::after {
+  content: "1.5 Billion";
+}
+
+}
+
+@media (max-width: 1325px) {
+	.animal-image{
+		background-image: url(imgimg/edit_dove.png);
+
+	}
+
+.name::after {
+  content: "Mourning Dove";
+}
+
+.num::after {
+  content: "400 Million";
+}
+
+}
+
+
+@media (max-width: 1300px) {
+	.animal-image{
+		background-image: url(img/americanrobin._110_150png.png);
+    border: 8px solid green;
+	}
+
+.name::after {
+  content: "American Robin";
+}
+
+.num::after {
+  content: "310 Million";
+}
+
+}
+
+@media (max-width: 1290px) {
+	.animal-image{
+		background-image: url(imgimg/edit_vulture.png);
+    background-color: lemonchiffon	;
+	}
+
+
+.name::after {
+  content: "Black Vulture";
+}
+
+
+.bar {
+  background-color: gold;
+}
+
+.num::after {
+  content: "20,000,000";
+}
+
+}
+
+@media (max-width: 1280px) {
+	.animal-image{
+		background-image: url(imgimg/edit_greyparrot.png);
+    background-color: lemonchiffon	;
+	}
+
+
+.name::after {
+  content: "Grey Parrot";
+}
+
+
+.bar {
+  background-color: gold;
+}
+
+.num::after {
+  content: "1,000,000 - 13,000,000";
+}
+
+}
+
+
+@media (max-width: 1270px) {
+	.animal-image{
+		background-image: url(imgimg/edit_puffin.png);
+    background-color: lemonchiffon	;
+	}
+
+
+.name::after {
+  content: "Atlantic Puffin";
+}
+
+
+.bar {
+  background-color: gold;
+}
+
+.num::after {
+  content: "5,800,000";
+}
+
+}
+
+@media (max-width: 1250px) {
+	.animal-image{
+		background-image: url(imgimg/edit_turtledove.png);
+    background-color: lemonchiffon;
+	}
+
+
+.name::after {
+  content: "European Turtle-Dove";
+}
+
+
+.bar {
+  background-color: gold;
+}
+
+.num::after {
+  content: "3,000,000-6,000,000";
+}
+
+}
+
+
+@media (max-width: 1220px) {
+	.animal-image{
+		background-image: url(imgimg/edit_greatknot.png);
+    background-color: lemonchiffon;
+	}
+
+
+.name::after {
+  content: "Great Knot";
+}
+
+
+.bar {
+  background-color: gold;
+}
+
+.num::after {
+  content: "380,000";
+}
+
+}
+
+
+@media (max-width: 1200px) {
+	.animal-image{
+		background-image: url(imgimg/edit_snowyowl.png);
+    background-color: lemonchiffon;
+	}
+
+
+.name::after {
+  content: "Snowy Owl";
+}
+
+
+.bar {
+  background-color: gold;
+}
+
+.num::after {
+  content: "300,000";
+}
+
+}
+
+@media (max-width: 1150px) {
+	.animal-image{
+		background-image: url(imgimg/edit_hoodedcrane.png);
+    background-color: peachpuff	;
+	}
+
+
+.name::after {
+  content: "Hooded Crane";
+}
+
+
+.bar {
+  background-color: orange;
+}
+
+.num::after {
+  content: "12,000";
+}
+
+}
+
+
+
+@media (max-width: 1130px) {
+	.animal-image{
+		background-image: url(imgimg/edit_blackinca.png);
+    background-color: peachpuff	;
+	}
+
+
+.name::after {
+  content: "Black Inca";
+}
+
+
+.bar {
+  background-color: orange;
+}
+
+.num::after {
+  content: "3,000 - 15,000";
+}
+
+}
+
+
+
+
+@media (max-width: 1100px) {
+	.animal-image{
+		background-image: url(imgimg/edit_grebe.png);
+    background-color: peachpuff	;
+	}
+
+
+.name::after {
+  content: "Titicaca Grebe";
+}
+
+
+.bar {
+  background-color: orange;
+}
+
+.num::after {
+  content: "2,000";
+}
+
+}
+
+
+
+@media (max-width: 1050px) {
+	.animal-image{
+		background-image: url(imgimg/edit_redsiskin.png);
+    background-color: peachpuff	;
+	}
+
+
+.name::after {
+  content: "Red Siskin";
+}
+
+
+.bar {
+  background-color: orange;
+}
+
+.num::after {
+  content: "1,500-7,000";
+}
+
+}
+
+
+@media (max-width: 1020px) {
+	.animal-image{
+		background-image: url(imgimg/edit_greenmacaw.png);
+    background-color: peachpuff;
+	}
+
+
+.name::after {
+  content: "Great Green Macaw";
+}
+
+.num::after {
+  content: "1,000 - 2,500";
+}
+
+.bar {
+  background-color: orange;
+}
+
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+	.animal-image{
+		background-image: url(imgimg/edit_giantibis.png);
+    background-color: mistyrose	;
+
+	}
+
+
+
+.name::after {
+  content: "Giant Ibis";
+}
+
+.num::after {
+  content: "600";
+}
+
+.bar {
+  background-color: red;
+}
+
+}
+
+
+
+@media (max-width: 980px) {
+	.animal-image{
+		background-image: url(imgimg/edit_laysanduck.png);
+    background-color: mistyrose	;
+
+	}
+
+.name::after {
+  content: "Laysan Duck";
+}
+
+.num::after {
+  content: "500";
+}
+
+.bar {
+  background-color: red;
+}
+
+}
+
+
+
+@media (max-width: 950px) {
+	.animal-image{
+		background-image: url(imgimg/edit_bluebilled.png);
+    background-color: mistyrose	;
+
+	}
+
+
+
+.name::after {
+  content: "Blue Billed";
+}
+
+.num::after {
+  content: "Around 250-500 left";
+}
+
+.bar {
+  background-color: red;
+}
+
+}
+
+
+@media (max-width: 920px) {
+	.animal-image{
+		background-image: url(imgimg/edit_kakapo.png);
+    background-color: mistyrose	;
+
+	}
+
+.name::after {
+  content: "Kakapo";
+}
+
+.num::after {
+  content: "213 left";
+}
+
+.bar {
+  background-color: red;
+}
+
+}
+
+@media (max-width: 900px) {
+	.animal-image{
+		background-image: url(imgimg/edit_guamrail.png);
+    background-color: mistyrose	;
+
+	}
+
+
+.name::after {
+  content: "Guam Rail";
+}
+
+.num::after {
+  content: "200";
+}
+
+}
+
+@media (max-width: 850px) {
+	.animal-image{
+		background-image: url(imgimg/edit_hawaiiancrow.png);
+
+	}
+
+.name::after {
+  content: "Hawaiian Crow";
+}
+
+.num::after {
+  content: "85";
+}
+
+}
+
+@media (max-width: 750px) {
+	.animal-image{
+		background-image: url(img/Alagoas_foliage-gleaner_edit_1_150.png);
+    background-color: black;
+	}
+
+  .bar {
+    background-color: black;
+  }
+
+.name::after {
+  content: "Passenger Pigeon";
+}
+
+.num::after {
+  content: "Extinct";
+}
+}
+
+
+
+@media (max-width: 650px) {
+	.animal-image{
+		background-image: url(imgimg/e_cryptictreehunter.png);
+    background-color: black;
+
+	}
+
+.name::after {
+  content: "Cryptic Tree Hunter";
+}
+
+.num::after {
+  content: "Extinct";
+}
+}
+
+@media (max-width: 600px) {
+	.animal-image{
+		/* background-image: url(img/Alagoas_foliage-gleaner_edit_1_150.png); */
+    border: 8px solid black;
+	}
+
+.name::after {
+  content: "Spix's Macaw";
+}
+
+.num::after {
+  content: "Extinct";
+}
+
+}
+
+
+</style>
+
+
+
+
+
+  </head>
+  <body>
+
+
+
+<div class="animal-container">
+
+<div class="animal-image"></div>
+
+
+
+<div class="label-container">
+  <h4 class="name-label">SPECIES</h4>
+  <h4 class="name"></h4>
+  <div class="line"></div>
+  <h4 class="num-label">POPULATION ESTIMATE</h4>
+  <h4 class="num"></h4>
+  <div class="bar"></div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="scriptv2.js"></script> -->
+
+  </body>
+</html>
